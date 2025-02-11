@@ -5,6 +5,12 @@ public class Romain {
 	private String nom;
 	private int force;
 
+	// constructeur
+	public Romain(String nom, int force) {
+		this.nom = nom;
+		this.force = force;
+	}
+
 	// methodes
 	public String getNom() {
 		return nom;
